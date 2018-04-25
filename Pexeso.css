@@ -1,0 +1,80 @@
+/*--Header--*/
+.score{
+    float:left;
+    height: 60px;
+    width: 140px;
+    background-color: lightgray;
+    border-radius: 0px 0px 20px 0px;
+    line-height: 10px;
+    font-weight: bold;
+    margin-left:-9px;
+    margin-top:-35px;
+    text-align: center;
+    color: darkblue;
+    font-family: Verdana;
+    box-shadow: 7px 7px 3px darkgray;
+}
+.HiScor{
+    font-size: 11px;
+}
+.timer{
+    width: 700px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: darkgray;
+    margin: 30px 245px;
+    box-shadow: 7px 7px 3px gray;
+}
+.reset{
+    height: 60px;
+    width: 70px;
+    background-color: lightgray;
+    border-radius: 0px 0px 0px 20px;
+    float:right;
+    margin-top: -77px;
+    margin-right: -10px;
+    box-shadow: 7px 7px 3px darkgray;
+}
+.reset img{
+    padding: 10px;
+}
+/*--Main Table--*/
+table{
+    margin: 70px 200px;
+}
+table tr td img{
+    padding:20px 20px;
+    height:120px;
+    width:90px;
+}
+.startButon{
+    position: absolute;
+    height: 70px;
+    width: 630px;
+    margin: -380px 290px;
+    background-color: lightgray;
+    border-radius: 10px;
+    opacity: 0.8;
+    z-index: 30;
+}
+.startButon p{
+    position: absolute;
+    padding: 10px 255px;
+    font-weight: bold;
+    color: darkblue;
+    font-family: Verdana;
+}
+.cards{
+    position: relative;
+    z-index: 20;
+}
+.cardBG{
+    position: relative;
+    width:800px;
+    height:500px;
+    margin: -575px 203px;
+    background-color:lightgray;
+    border-radius: 15px;
+    opacity: 0.5;
+    z-index: 10;
+}
